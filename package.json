@@ -1,0 +1,32 @@
+{
+  "name": "node-rabbitmq",
+  "version": "1.0.0",
+  "description": "A playground for Node and RabbitMQ.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/node-rabbitmq#readme",
+  "keywords": [
+    "node",
+    "rabbitmq",
+    "microservice"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/node-rabbitmq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/node-rabbitmq/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.7.0"
+  },
+  "license": "MIT"
+}
