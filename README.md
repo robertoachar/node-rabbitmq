@@ -24,8 +24,30 @@ $ npm install
 
 Action | Usage
 ------ | -----
-Starting development mode | `npm start`
 Linting code              | `npm run lint`
+
+# Usage
+
+* Hello World
+
+```bash
+# producer
+$ node src/hello-world/producer.js
+
+# consumer
+$ node src/hello-world/consumer.js
+```
+
+# Troubleshooting
+
+## Installing as a non-administrator user leaves .erlang.cookie in the wrong place
+
+This makes it impossible to use `rabbitmqctl`.
+
+Workarounds:
+
+* Run the installer as an administrator _or_;
+* Copy the file `.erlang.cookie` manually from `%SystemRoot%` to `%HOMEDRIVE%%HOMEPATH%`.
 
 # Author
 
